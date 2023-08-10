@@ -1,0 +1,19 @@
+{
+  "name": "youwork",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "prettier": "^3.0.1"
+  },
+  "devDependencies": {
+    "eslint": "^8.46.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "lint": "eslint src/js/**/*.js",
+    "lint-fix": "eslint src/**/*.js --cache --fix"
+  },
+  "author": "",
+  "license": "ISC"
+}
